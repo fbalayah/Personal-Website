@@ -1,0 +1,139 @@
+/* STYLE SECTIONING TAGS */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+nav {
+  padding: 20px 40px;
+  margin-bottom: 3em;
+
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 12px;
+}
+
+nav li a {
+  display: inline-block;
+  color: #DDDDDD;
+  text-decoration: none;
+  background-color: #262626;
+  padding: 8px 16px;
+  border-radius: 100px;
+  font-size: .7rem;
+}
+
+nav li a:hover {
+  background-color: #333333;
+}
+
+body {
+  
+ background-color: #181818; 
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px;
+
+  color: #DDDDDD;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: normal;
+  font-size: small;
+  text-align: left;
+  word-spacing: 1px;
+  line-height: 20px;
+  
+
+}
+.start{
+  margin-bottom: 1em;
+}
+#hijabi{
+  border-block-color: orangered;
+}
+/* STYLE TEXT */
+
+h1 {
+  color: white;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-weight: bold;
+  font-size: xx-large;
+  text-align: left;
+  margin-bottom: 1em;
+}
+.greet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+/* STYLE IMAGES */
+
+img {
+  max-height: 250px;
+  max-width: 250px;
+  border-radius: 50%;
+  border: 2px solid antiquewhite;
+  
+}
+.projects h1 {
+  margin-bottom: 1.5em;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #232323;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.project-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.year {
+  color: deeppink;
+  font-family: monospace;
+  font-size: 0.9rem;
+}
+
+.project-card h3 {
+  color: white;
+  margin-bottom: 8px;
+}
+
+.project-card p {
+  color: #AAAAAA;
+  margin-bottom: 16px;
+  font-size: 0.95rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 10px;
+}
+
+.project-links a {
+  background-color: #333333;
+  color: #DDDDDD;
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+.project-links a:hover {
+  background-color: #444444;
+}
+
+/* STYLE NAV BAR */
